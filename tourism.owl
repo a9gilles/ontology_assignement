@@ -1,0 +1,633 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gille/ontologies/2024/0/tourism/"
+     xml:base="http://www.semanticweb.org/gille/ontologies/2024/0/tourism/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasAccessibility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasAccessibility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accessibility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasAccomodation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasAccomodation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accommodation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasActivity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Activity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasCulturalHeritage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasCulturalHeritage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#CulturalHeritage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasPart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#isOfferedAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#isOfferedAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasCity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#hasCity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accessibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accessibility"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accommodation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accommodation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Activity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure_Tourism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure_Tourism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#AirBnb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#AirBnb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#AirLines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#AirLines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#AirTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#AirTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#AirTransport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#BackPackerDestination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#BackPackerDestination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Beach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Beach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Biking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Biking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Sport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Bujeejumping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Bujeejumping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Cabarate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Cabarate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Theatre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Campground -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Campground">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accommodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Camping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Camping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#NaturalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#UrbanArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Common -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Common">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Theatre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#CouchSurfing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#CouchSurfing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#CulturalHeritage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#CulturalHeritage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#EcoTourism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#EcoTourism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Educational_guided_tours -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Educational_guided_tours">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#EcoTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#FamilyDestination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#FamilyDestination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#FarmLand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#FarmLand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#RuralArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Hiking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Hiking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#NaturalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#HistoricalPlaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#HistoricalPlaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#CulturalHeritage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Hostel_market -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Hostel_market">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accommodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Hotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Hotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accommodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Ice_climbing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Ice_climbing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure_Tourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#JumboJets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#JumboJets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#AirTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#LowCost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#LowCost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#AirTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Museums -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Museums">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#CulturalHeritage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#MusicFestival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#MusicFestival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#NationalPark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#NationalPark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#RuralArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#NaturalTourism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#NaturalTourism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Outdoor_courses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Outdoor_courses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#EcoTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#PublicTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#PublicTransport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#QuietDestination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#QuietDestination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#RailTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#RailTransport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Relaxation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Relaxation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#ReligiousMonuments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#ReligiousMonuments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#CulturalHeritage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#RetireeDestination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#RetireeDestination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#RuralArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#RuralArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Safari -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Safari">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Accommodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Sport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Sport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#StripClub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#StripClub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Theatre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Summer_camps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Summer_camps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#EcoTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#SunBathing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#SunBathing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Relaxation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Surfing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Surfing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Sport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Theatre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Theatre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Town -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Town">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#UrbanArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#UNESCO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#UNESCO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#CulturalHeritage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#UrbanArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#UrbanArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Walking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Walking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#NaturalTourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#White_water_rafting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#White_water_rafting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure_Tourism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Yoga -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Yoga">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Relaxation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gille/ontologies/2024/0/tourism#mountaineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#mountaineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure_Tourism"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Adventure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Destination"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gille/ontologies/2024/0/tourism#Relaxation"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
